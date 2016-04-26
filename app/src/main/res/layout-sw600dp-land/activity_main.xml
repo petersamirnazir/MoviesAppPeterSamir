@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="example.movies.MainActivityFragment"
+        android:id="@+id/fragmentForecast"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        class="example.movies.MainActivityFragment"
+        tools:layout="@layout/fragment_main" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="example.movies.DetailAcivityFragment"
+        android:id="@+id/fragmentDetail"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        class="example.movies.DetailAcivityFragment"
+        tools:layout="@layout/fragment_detail_acivity" />
+</LinearLayout>

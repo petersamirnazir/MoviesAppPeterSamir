@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_acivity">DetailAcivity</string>
+    <string name="sort_by_popularity_settings">Sort by popularity</string>
+    <string name="sort_by_rating_settings">Sort by rating</string>
+    <string name="show_favorites">Show Favorites</string>
+</resources>
